@@ -1,5 +1,7 @@
 import { Suspense } from "react";
 
+export const dynamic = "force-dynamic";
+
 import { AuthProviderWrapper } from "@/components/features/auth/auth-provider-wrapper";
 
 interface AuthLayout {

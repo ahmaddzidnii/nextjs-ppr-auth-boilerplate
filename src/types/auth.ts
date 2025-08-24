@@ -10,7 +10,7 @@ export interface AuthState {
   user: AuthUser | null;
 }
 
-export interface AuthContextType extends AuthState {}
+export type AuthContextType = AuthState;
 
 export interface DataLoginResponse {
   data: {

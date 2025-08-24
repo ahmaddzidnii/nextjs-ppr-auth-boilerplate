@@ -1,14 +1,5 @@
-import { getCurrentUser } from "@/libs/api/auth";
-
 const page = async () => {
-  const user = await getCurrentUser();
-  return (
-    <div>
-      Manage Event Page!
-      <br />
-      {JSON.stringify(user)}
-    </div>
-  );
+  return <div>Manage Event Page!</div>;
 };
 
 export default page;
