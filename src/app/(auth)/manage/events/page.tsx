@@ -4,7 +4,7 @@ const page = async () => {
   const user = await getCurrentUser();
   return (
     <div>
-      Dashboard Page!
+      Manage Event Page!
       <br />
       {JSON.stringify(user)}
     </div>
